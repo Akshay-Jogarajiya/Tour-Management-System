@@ -1,0 +1,32 @@
+<c:if test="${not empty pa.photoPath}">
+ </c:if>
+
+
+<div class="container">
+        <div class="tour-package p1">
+            <img src="assets/images/goaMain.jpeg.jpg" alt="Tour Package 1">
+            <h2>Exotic Goa Tour Package</h2>
+            <p>Discover the magic of Goa with our tailored beach getaway, offering a perfect blend of relaxation, adventure, and rich cultural experiences.</p>
+            <span class="price">Duration : 5 Days + 4 Nights</span> <br>
+            <span class="price">Price : <i class="fa-solid fa-indian-rupee-sign"></i> 30,000 only</span> <br>
+            <a href="/goa" class="btn">View Full Package</a>
+        </div>
+
+        <div class="tour-package p2 p1">
+            <img src="assets/images/damanMain.jpg" alt="Tour Package 2">
+            <h2> Daman Dream Vacation</h2>
+            <p>Unwind on the serene beaches of Daman, exploring its rich colonial heritage, tranquil landscapes, and vibrant coastal charm in a perfect weekend getaway.</p>
+            <span class="price">Duration : 3 Days + 2 Nights</span> <br>
+            <span class="price">Price : <i class="fa-solid fa-indian-rupee-sign"></i> 15,000 only</span> <br>
+            <a href="/daman" class="btn">View Full Package</a>
+        </div>
+
+        <div class="tour-package p3 p1">
+            <img src="assets/images/jammuMain.png" alt="Tour Package 3">
+            <h2>Paradise in Kashmir</h2>
+            <p>Immerse yourself in the breathtaking beauty of Jammu & Kashmir, with snow-capped mountains, lush valleys, and serene lakes offering a truly magical escape.</p>
+            <span class="price">Duration : 8 Days + 7 Nights</span> <br>
+            <span class="price">Price : <i class="fa-solid fa-indian-rupee-sign"></i> 70,000 only</span> <br>
+            <a href="/jammu" class="btn">View Full Package</a>
+        </div>
+    </div>

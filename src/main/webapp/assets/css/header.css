@@ -1,0 +1,31 @@
+header {
+    background-color: rgba(33, 26, 26, 0.67);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .cn {
+    font-size: 34px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+header a:hover {
+    color: rgb(195, 241, 206);
+}
